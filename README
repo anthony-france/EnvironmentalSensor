@@ -1,0 +1,1 @@
+Arduino sketch for submiting environmental data from DHT22 sensor to RESTful API.
