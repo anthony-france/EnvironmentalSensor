@@ -6,7 +6,7 @@ dht22 DHT22;
 #include <SPI.h>
 #include <Ethernet.h>
 EthernetClient client;
-char server[] = "prepresslog.pointimaging.local";
+char server[] = "servername";
 
 unsigned long lastConnectionTime = 0;          // last time you connected to the server, in milliseconds
 boolean lastConnected = false;                 // state of the connection last time through the main loop
